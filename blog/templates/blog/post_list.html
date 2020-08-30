@@ -3,9 +3,9 @@
 
 <head>
     <title>Bridging Coursework</title>
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    
+
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
                     <h2><a href="">{{ post.title }}</a></h2>
                     <div class="date">
-                        <h6>published: {{ post.published_date }}</h6>
+                        <h6>published: {{ post.published_date }} by {{ post.author }}</h6>
                     </div>
                     <p>{{ post.text|linebreaksbr }}</p>
                 </div>
